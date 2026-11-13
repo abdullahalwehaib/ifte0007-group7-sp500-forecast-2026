@@ -1,0 +1,62 @@
+{
+  "record_type": "PUBLIC-SAFE SOURCE METADATA; NO PRICE OBSERVATIONS",
+  "historical_provider": "FRED SP500; original source S&P Dow Jones Indices LLC",
+  "historical_source_url": "https://fred.stlouisfed.org/series/SP500",
+  "original_csv_retrieval_times": "Unknown; not inferred from local file times",
+  "historical_publication_vintages": "Not established; retrospective saved snapshots",
+  "latest_input_provider": "Yahoo Finance ^GSPC daily Close, expressly authorized fallback for final origin",
+  "latest_input_url": "https://finance.yahoo.com/quote/%5EGSPC/history/",
+  "dated_close_observed_at_utc": "2026-11-12T21:19:08.818Z",
+  "first_publication_instant": "Unknown; observed availability is bounded by the recorded retrieval",
+  "source_artifacts": [
+    {
+      "source_artifact": "recency_weighted_36_models/experiment.py",
+      "sha256": "2318b229f61356f45c1ee7484596c218660279c4cca6c04209cb854c8fe4dec0",
+      "raw_data_in_public_package": null
+    },
+    {
+      "source_artifact": "recency_weighted_36_models/calendar_rules.py",
+      "sha256": "ca869ec056f29e16647139ab2c5dc3d3b8372ca3d2b203bbc8197e0e896954fe",
+      "raw_data_in_public_package": null
+    },
+    {
+      "source_artifact": "recency_weighted_36_models/legacy_engine.py",
+      "sha256": "1681459299dff1eb481a16d0e67b954139f8da2d2976cf410e8185d56f999554",
+      "raw_data_in_public_package": null
+    },
+    {
+      "source_artifact": "recency_weighted_36_models/protocol.json",
+      "sha256": "14ede608320c1c9c4820116a0599df002fc19880da034f42e88c6f3c2224c783",
+      "raw_data_in_public_package": null
+    },
+    {
+      "source_artifact": "recency_weighted_36_models/training/models/A_H24_k05.json",
+      "sha256": "90f53f1de14008482992948c9faef465d211761276e2a4a4253f7b92a9133b7b",
+      "raw_data_in_public_package": null
+    },
+    {
+      "source_artifact": "recency_weighted_36_models/training/coefficients.csv",
+      "sha256": "de17ba873381cd940e435e5a720059d98cdb499affffae189c30c76f465597a8",
+      "raw_data_in_public_package": null
+    },
+    {
+      "source_artifact": "recency_weighted_36_models/validation/summary.csv",
+      "sha256": "30c7ef4cb8579ddf140a42e2fc23fbca40d4233c0ae5aa1e32cb6c77bfe56d5d",
+      "raw_data_in_public_package": null
+    },
+    {
+      "source_artifact": "recency_weighted_36_models/input/history_2020_2026.csv",
+      "sha256": "670fd27699fd7d9c50eb62b7243dd14b369dbbc3ad6f8994c3bf7d9f41a1db17",
+      "raw_data_in_public_package": false
+    }
+  ],
+  "note": "Hashes identify originals without redistributing observations. Original receipts contained machine paths; no personal paths, screenshots or full transcripts are included.",
+  "saved_source_overlap_checks": {
+    "status": "PASS",
+    "source_artifact": "nov20_frozen_model_comparison_2026-11-12/input_checks.json",
+    "archived_recent_identical_overlap_count": 22,
+    "fred_yahoo_identical_overlap_count": 40,
+    "max_fred_yahoo_absolute_difference_points": "0",
+    "scope": "Saved cross-source consistency checks only; equality does not establish historical vintages or first-publication times."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "verification_started_at_utc": "2026-11-13T15:10:27.144477+00:00",
+  "verification_completed_at_utc": "2026-11-13T15:10:34.985020+00:00",
+  "timing_scope": "Post-cutoff verification of unchanged previously saved inputs, specifications and selected forecast; not a new forecast publication, selection or data retrieval",
+  "historical_replay": {
+    "fixed_regression_configurations": 36,
+    "original_production_fits_reestimated": 32,
+    "original_A_OLS_parameter_sets_reused": 4,
+    "matching_mean_controls": 9,
+    "model_and_control_JSON_files_byte_identical": 45,
+    "deterministic_CSV_files_byte_identical": 731,
+    "catalog_and_derived_report_byte_identical": true,
+    "selected_native_origins": 705,
+    "selected_common_origins": 37,
+    "moderate_weighting_improved_matched_OLS": 7,
+    "strong_weighting_improved_matched_OLS": 2,
+    "matched_weighting_pairs": 12
+  },
+  "independent_grid_Decimal60_numeric_comparisons": 447018,
+  "selected_saved_evidence_checks": 19727,
+  "selected_Fraction_and_Decimal_point_consistency_checks": 4,
+  "original_archive_manifest_files_unchanged": 4256,
+  "reference_report_unchanged": true,
+  "no_new_market_data": true,
+  "no_specification_or_selected_forecast_change": true,
+  "public_demo_warning": "Synthetic public data demonstrate code only; empirical metrics require the separate restricted original-data verification. Check counts are arithmetic/integrity comparisons, not independent statistical observations."
+}

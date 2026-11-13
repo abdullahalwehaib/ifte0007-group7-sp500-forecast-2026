@@ -1,0 +1,26 @@
+{
+  "record_type": "SAVED OFFICIAL MODEL SPECIFICATION AND COEFFICIENTS; NO HISTORICAL PRICE DATA",
+  "model_id": "ABD_A_H24_k05",
+  "market": "S&P 500 price index",
+  "coefficients": {
+    "alpha": "0.003201240290674308",
+    "beta": "-0.0384384016283035"
+  },
+  "formula": "X=P_t/P_(t-5)-1; predicted_return_6=alpha+beta*X; forecast_level=P_t*(1+predicted_return_6)",
+  "lookback_sessions": 5,
+  "forecast_horizon_sessions": 6,
+  "training_start": "2020-01-01",
+  "training_cutoff": "2023-12-31",
+  "training_observations": 960,
+  "training_sample": "Common 40-session in-window warm-up; only six-session outcomes matured by cutoff",
+  "first_training_origin": "2020-03-02",
+  "last_training_origin": "2023-12-20",
+  "last_training_target": "2023-12-29",
+  "weight_formula": "2**(-(training_cutoff-origin_date).days/730.5)",
+  "half_life_calendar_days": "730.5",
+  "coefficient_policy": "Fixed throughout validation and final deployment; no November re-estimation",
+  "N_eff_weight_concentration": "840.9591990643289",
+  "weighted_training_R2": "0.0012529994709052916",
+  "source_artifact": "recency_weighted_36_models/training/models/A_H24_k05.json",
+  "source_sha256": "90f53f1de14008482992948c9faef465d211761276e2a4a4253f7b92a9133b7b"
+}

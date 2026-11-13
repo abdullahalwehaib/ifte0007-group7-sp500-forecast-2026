@@ -1,0 +1,13 @@
+{
+  "record_type": "OFFICIAL POINT RECORD ONLY; NOT A PRICE HISTORY OR A SYNTHETIC RESULT",
+  "model_id": "ABD_A_H24_k05",
+  "market": "S&P 500 price index",
+  "unit": "index points",
+  "target": "2026-11-20T21:00:00Z",
+  "information_cutoff": "2026-11-13T12:00:00Z",
+  "forecast": "7607.23",
+  "precision": "Two decimal places; round only final level",
+  "selection_context": "Human selection after exploratory comparison of 51 frozen momentum regressions by absolute predicted movement. Selected model ranked fifth; proximity is not accuracy or confidence.",
+  "group_confirmation": "Selected model and point confirmed by the group contact; no institutional submission event or public timestamp is inferred.",
+  "no_raw_input_values_published": true
+}
