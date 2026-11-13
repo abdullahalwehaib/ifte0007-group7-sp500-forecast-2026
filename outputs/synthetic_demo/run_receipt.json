@@ -1,0 +1,37 @@
+{
+  "common_origins": 37,
+  "data_status": "SYNTHETIC DEMONSTRATION \u2014 NOT THE OFFICIAL SUBMITTED FORECAST",
+  "fitting_scope": "Fixed 2020\u20132023, 2020\u2013August2026 and 2025\u2013August2026 windows; no validation updating",
+  "input_basename": "synthetic_prices.csv",
+  "input_sha256": "a249b9ca157ac19544c573df29a6e609bed3a6979db18e225583ca98254634a3",
+  "matching_mean_controls": 9,
+  "native_A_origins": 705,
+  "outputs": {
+    "coefficients.csv": "6879b88e8b16f66281bffc15adbf4e8a0c57548f6c2e257befff0f76a3d88c8d",
+    "forecast_candidates.csv": "eb1e2e5d1577d977ee8fb2b2fea6b6e1322933075251286d5e39ac7fe91f237d",
+    "training_rows.csv": "666080ee840263e6ddc8a4741132b98d7eb23acbe16da6bd973d4aa1289a2308",
+    "training_weights.csv": "dafdffa17a301f6acc9791dd7f209d9a041c98b56c5a72ae8ce41a912b8caa5e",
+    "validation_forecasts.csv": "1215e7272f095b1f23bb5178007a6c8d70d7201729274e39bb26bb9d33d53e9c",
+    "validation_summary.csv": "7a0d3f4fbe09fd8e987185af4f649169f64ea6f613e027ea7fbbe4813ecdff89"
+  },
+  "python": "3.12.14",
+  "regression_configurations": 36,
+  "selected_specification_demo_point_2dp": "941.06",
+  "selected_specification_demonstration": {
+    "X": 0.01615552529771569,
+    "alpha": 0.0008034009090747193,
+    "beta": -0.0014855991316967115,
+    "factor_start_date": "2026-11-05",
+    "k": 5,
+    "kind": "regression",
+    "model_id": "A_H24_k05",
+    "origin_close": 940.33,
+    "origin_date": "2026-11-12",
+    "predicted_close": 941.0628934603278,
+    "predicted_return": 0.0007794002747203286,
+    "scheme": "H24",
+    "target_date": "2026-11-20",
+    "window": "A"
+  },
+  "synthetic_seed": 2026111207
+}
